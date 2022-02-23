@@ -20,6 +20,9 @@ dependencies {
             }
             because("CVE-2021-44228 Log4j 2 Vulnerability")
         }
+        implementation('com.fasterxml.jackson.core:jackson-databind:2.13.1') {
+            because 'vulnerabilities'
+        }
     }
 
 }
